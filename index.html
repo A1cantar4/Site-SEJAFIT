@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>SEJAFIT</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Academia SEJAFIT - Transforme seu corpo com treino e saúde.">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- Início do cabeçalho do site -->
+    <header class="header">
+        <a href="index.html" class="logo"><span>SEJA</span>FIT</a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#pricing">Preços</a>
+            <a href="#trainers">Treinadores</a>
+            <a href="#about">Sobre Nós</a>
+            <a href="#features">Nossos Serviços</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+    </header>
+    <!-- Fim do cabeçalho -->
+
+    <main>
+        <!-- Início da seção Home (página inicial) -->
+        <section id="home" class="home">
+            <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" style="background: url(img/home2.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Seja Forte, seja fit</span>
+                            <h3>Torne-se mais forte do que suas desculpas.</h3>
+                            <a href="#" class="btn">Iniciar</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(img/home1.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Seja Forte, seja fit</span>
+                            <h3>Torne-se mais forte do que suas desculpas.</h3>
+                            <a href="#" class="btn">Iniciar</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(img/home3.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Seja Forte, seja fit</span>
+                            <h3>Torne-se mais forte do que suas desculpas.</h3>
+                            <a href="#" class="btn">Iniciar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+        <!-- Fim da seção Home -->
+
+        <!--Início MAPS-->
+        <section id="localizacao" class="localizacao">
+            <h1 class="heading"> <span>Onde Estamos</span> </h1>
+            <div class="localizacao-container">
+                <!-- Coluna 1: Mapa com Avaliações -->
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.812139144894!2d-35.24361792900228!3d-7.374941173642794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac630f93d8caf3%3A0x9e8834e880c29b05!2sSejaFit%20Academia!5e0!3m2!1spt-BR!2sbr!4v1750866282453!5m2!1spt-BR!2sbr"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <!-- Coluna 2: Foto + Infos -->
+                <div class="info-box">
+                    <img src="img/fachada.jpg" alt="Fachada da academia" class="fachada-img">
+
+                    <ul class="info-list">
+                        <li><i class="fas fa-car"></i> Estacionamento gratuito</li>
+                        <li><i class="fas fa-bus"></i> Fácil acesso de ônibus</li>
+                        <li><i class="fas fa-shield-alt"></i> Segurança no local</li>
+                        <li><i class="fas fa-clock"></i> Aberto até as 22h</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Fim MAPS-->
+
+
+        <!-- Início da seção Preços -->
+        <section id="pricing" class="pricing">
+            <h1 class="heading"> <span>Plano de Preços</span> </h1>
+
+            <div class="information">
+                <h3>Os melhores equipamentos com mensalidades acessíveis.</h3>
+            </div>
+
+            <!-- NOVO: container para os planos -->
+            <div class="plan-container">
+                <div class="plan basic">
+                    <h3>Plano Básico</h3>
+                    <div class="price"><span>R$</span>90<span>/mês</span></div>
+                    <div class="list">
+                        <p> <i class="fas fa-check"></i> Treinador </p>
+                        <p> <i class="fas fa-check"></i> Exercícios de Cardio </p>
+                        <p> <i class="fas fa-check"></i> Levantamento de Peso </p>
+                        <p> <i class="fas fa-check"></i> Planos Alimentares </p>
+                        <p> <i class="fas fa-check"></i> Acompanhamento de Resultados </p>
+                    </div>
+                    <a href="#" class="btn">Quero</a>
+                </div>
+
+                <div class="plan">
+                    <h3>Plano Premium</h3>
+                    <div class="price"><span>R$</span>110<span>/mês</span></div>
+                    <div class="list">
+                        <p> <i class="fas fa-check"></i> Treinador </p>
+                        <p> <i class="fas fa-check"></i> Exercícios de Cardio </p>
+                        <p> <i class="fas fa-check"></i> Levantamento de Peso </p>
+                        <p> <i class="fas fa-check"></i> Planos Alimentares </p>
+                        <p> <i class="fas fa-check"></i> Acompanhamento de Resultados </p>
+                    </div>
+                    <a href="#" class="btn">Quero</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fim da seção Preços -->
+
+        <!-- Início da seção Treinadores -->
+        <section id="trainers" class="trainers">
+            <h1 class="heading"> <span>Treinadores Especializados</span> </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="img/personal1.jpg" alt="">
+                    <div class="content">
+                        <span>Personal</span>
+                        <h3>Renato Souza</h3>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/personal2.jpg" alt="">
+                    <div class="content">
+                        <span>Personal</span>
+                        <h3>Marcela Silva</h3>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/personal3.jpg" alt="">
+                    <div class="content">
+                        <span>Personal</span>
+                        <h3>João Paulo</h3>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- Fim da seção Treinadores -->
+
+    </main>
+    <!--Fim conteudo principal-->
+
+    <!-- Início da seção Sobre Nós -->
+    <section id="about" class="about">
+        <div class="image">
+            <img src="img/sobre.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <span>Sobre Nós</span>
+            <h3 class="title">Cada dia é uma chance de se tornar melhor</h3>
+            <p>Somos mais do que uma academia. Somos um espaço onde você conquista saúde, disciplina e qualidade de
+                vida. Com uma equipe dedicada e estrutura moderna, ajudamos você a atingir seus objetivos com
+                acompanhamento personalizado.</p>
+
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>Corpo e Mente</h3>
+                    <p>Treine seu corpo e sua mente será treinada</p>
+                </div>
+
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>Vida Saudável</h3>
+                    <p>Conquiste uma vida saudável</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>Estratégias</h3>
+                    <p>Estratégias para seu treinamento</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-check"></i>Treino</h3>
+                    <p>Treine seu corpo fortemente</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Ler Mais</a>
+        </div>
+    </section>
+    <!-- Fim da seção Sobre Nós -->
+
+    <!-- Início da seção Nossos Serviços -->
+    <section id="features" class="features">
+        <!--Fim serviços-->
+        <h1 class="heading"> <span>O que Oferecemos</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/servico1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="https://i.postimg.cc/J46txFdD/icon-1.png" alt="">
+                    <h3>Musculação</h3>
+                    <p>A musculação é essencial para fortalecer o corpo, aumentar a resistência e melhorar a saúde
+                        geral. Aqui, você encontra os equipamentos certos e o suporte ideal para alcançar seus
+                        resultados.</p>
+                    <a href="#" class="btn">Ler Mais</a>
+                </div>
+            </div>
+
+            <div class="box second">
+                <div class="image">
+                    <img src="img/servico2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="https://i.postimg.cc/5N3KRBwF/icon-2.png" alt="">
+                    <h3>Para Homens</h3>
+                    <p>Treinos personalizados voltados para força, definição e resistência. Supere seus limites com
+                        acompanhamento técnico especializado.</p>
+                    <a href="#" class="btn">Ler Mais</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/servico3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <img src="https://i.postimg.cc/pTjkP83x/icon-3.png" alt="">
+                    <h3>Para Mulheres</h3>
+                    <p>Treinos adaptados ao seu ritmo e objetivos. Ganhe saúde, energia e autoestima com planos
+                        feitos especialmente para você.</p>
+                    <a href="#" class="btn">Ler Mais</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Início do rodapé -->
+    <footer id="contact" class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Horário de Funcionamento</h3>
+                <p> Segunda - Sexta: <i> 7:00h - 22:00h </i> </p>
+                <p> Sábado : <i> 7:00h - 10:30h </i> </p>
+                <p> Domingo : <i> Fechado </i> </p>
+            </div>
+            <div class="box">
+                <h3>Nossos Contatos</h3>
+                <p> <i class="fas fa-phone"></i> +81 9 8222-3333 </p>
+                <p> <i class="fas fa-envelope"></i> sejafit@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Caruaru, Pernambuco - Brasil</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Novidades</h3>
+                <p>Se inscreva para receber as novidades</p>
+                <form id="newsletter-form">
+                    <input type="text" name="nome" class="email" placeholder="Digite seu nome" required>
+                    <input type="email" name="email" class="email" placeholder="Digite seu e-mail" required>
+                    <input type="submit" value="Enviar" class="btn">
+                    <span id="form-status" style="margin-left: 1rem; color: #FFD700;"></span>
+
+                    <!-- Campos ocultos do FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Novo cadastro na newsletter!">
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 <span>SEJAFIT LTDA</span>. Todos os direitos reservados.
+        </div>
+
+    </footer>
+    <!-- Fim do rodapé -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src='main.js'></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <a href="https://wa.me/5581982223333" class="whatsapp-float" target="_blank" aria-label="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Fale conosco agora!</span>
+    </a>
+
+</body>
+
+</html>
