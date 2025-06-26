@@ -674,7 +674,7 @@ section {
 
 .footer .box-container .box p i {
     padding-right: .5rem;
-    color: #FFD700;
+    color: #ffd700;
 }
 
 .footer .box-container .box .share {
@@ -974,5 +974,11 @@ section {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        color: #000 !important;
     }
 }
