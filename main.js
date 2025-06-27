@@ -28,31 +28,39 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
-// ScrollReveal - seguro, rápido e sem sumir
 window.addEventListener('load', () => {
     const sr = ScrollReveal({
-        origin: 'bottom',
-        distance: '20px',
-        duration: 400,
-        delay: 50,
+        origin: 'bottom',    // Animação de baixo para cima
+        distance: '50px',
+        duration: 300,
+        delay: 150,
         easing: 'ease-out',
         reset: false,
         viewFactor: 0.2
     });
 
-    sr.reveal(`
-        .heading, 
-        .about .content, .about .image,
-        .features .box,
-        .pricing .plan, .pricing .information,
-        .trainers .box,
-        .review .information,
-        .banner,
-        .footer .box
-    `, {
-        interval: 50
+    // Revela TODAS as sections do site (inclusive #home)
+    document.querySelectorAll('section').forEach(section => {
+        sr.reveal(section, { interval: 100 });
     });
+
+    // Revela elementos adicionais fora de section
+    sr.reveal(`
+        .box, 
+        .content, 
+        .info-box, 
+        .information, 
+        .plan, 
+        .app-text, 
+        .app-image,
+        .footer, 
+        .footer .box,
+        .footer-logo-container,
+        .social-footer,
+        .whatsapp-float
+    `, { interval: 100 });
 });
+
 
 document.querySelector("#newsletter-form").addEventListener("submit", async function (e) {
     e.preventDefault(); // Impede o recarregamento da página
