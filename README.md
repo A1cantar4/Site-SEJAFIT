@@ -1,34 +1,31 @@
 
-# 🌿 ClinVida+ – Nutrição e Bem-Estar
+# 🏋️ SEJAFIT – Academia Responsiva
 
-Uma landing page moderna e responsiva desenvolvida com HTML, CSS e JavaScript puro, voltada para uma clínica de nutrição. O site apresenta informações institucionais, serviços oferecidos, sugestões de plano alimentar, integração com o WhatsApp, e muito mais.
-
----
-
-## 📸 Prévia
-
-![Screenshot](assets/screenshots/screenshot1.png)
+Projeto de website institucional para uma academia, construído com foco em desempenho, design atrativo e experiência do usuário. A landing page apresenta planos, localização, treinadores, serviços e integração com WhatsApp e formulário de newsletter.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 🌗 **Modo Claro/Escuro** com persistência no navegador
-- 🎯 Navegação suave com scrollspy ativo
-- 📱 Totalmente **responsivo**
-- 📦 Estrutura **modular e reutilizável**
-- 🌍 Google Maps integrado
-- 📞 Link direto para WhatsApp
-- 🧭 Menu mobile interativo
+- 📱 Layout 100% responsivo (mobile, tablet, desktop)
+- 🎯 Slider principal com SwiperJS
+- 📍 Mapa do Google Maps integrado
+- 📦 Plano de preços com destaque visual
+- 🧑‍🏫 Seção de Treinadores com redes sociais
+- 📝 Formulário de inscrição com integração ao FormSubmit
+- 🌗 Tema escuro com amarelo dourado (visual forte e moderno)
+- 💬 Botão flutuante do WhatsApp interativo
 - ✨ Animações com ScrollReveal
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- **HTML5** + **CSS3** com variáveis e media queries
-- **JavaScript Vanilla (sem frameworks)**
-- **BoxIcons** para ícones
+- **HTML5**
+- **CSS3** (com media queries e animações)
+- **JavaScript (puro)**
+- **Swiper.js** para carrossel
+- **FontAwesome** para ícones
 - **ScrollReveal.js** para animações
 
 ---
@@ -36,42 +33,41 @@ Uma landing page moderna e responsiva desenvolvida com HTML, CSS e JavaScript pu
 ## 🗂 Estrutura de Pastas
 
 ```
-clinvida-plus/
+sejafit/
 ├── index.html
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── main.js
-│   ├── img/
-│       ├── home.png
-│       ├── about.jpg
-│       ├── fachada.png
-│       ├── movil-app.png
-│       ├── plate1.png
-│       ├── plate2.png
-│       ├── plate3.png
-│       └── app1.png / app2.png
+├── main.css
+├── main.js
+├── img/
+│   ├── home1.jpg
+│   ├── home2.jpg
+│   ├── home3.jpg
+│   ├── fachada.jpg
+│   ├── personal1.jpg
+│   ├── personal2.jpg
+│   ├── personal3.jpg
+│   ├── servico1.jpg
+│   ├── servico2.jpg
+│   ├── servico3.jpg
+│   ├── sobre.jpg
+│   ├── logo.png
+│   └── mockup-app.png
 ```
 
 ---
 
-## 📦 Como usar
+## 📦 Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/A1lcantar4/clinvida-plus.git
+   git clone https://github.com/A1lcantar4/sejafit.git
    ```
-2. Abra o arquivo `index.html` em seu navegador.
+2. Abra o arquivo `index.html` no navegador.
 
 ---
 
-## 📱 Responsividade
+## 📷 Prévia Visual
 
-O layout adapta-se perfeitamente a:
-- Mobile (até 375px)
-- Tablets
-- Desktop
+![Fachada](https://raw.githubusercontent.com/A1cantar4/Site-SEJAFIT/main/screenshots/screenshot1.png)
 
 ---
 
